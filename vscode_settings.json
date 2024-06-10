@@ -1,0 +1,436 @@
+{
+    "window.zoomLevel": -1,
+
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "workbench.colorTheme": "Visual Studio Dark",
+    // "workbench.colorTheme": "Jellyfish",
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "editorLineNumber.activeForeground": "#dff",
+        "editor.lineHighlightBackground": "#223",
+        "editor.lineHighlightBorder": "#112",
+        "editor.background": "#001",
+        "titleBar.activeBackground": "#234",
+        "activityBar.background": "#234",
+        "tab.inactiveBackground": "#222",
+        "scrollbarSlider.background": "#0000",
+        "scrollbarSlider.activeBackground": "#0000",
+        "scrollbarSlider.hoverBackground": "#0000",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.background": "#269",
+        "statusBar.noFolderBackground": "#269",
+        "statusBar.debuggingBackground": "#269",
+        "statusBar.debuggingForeground": "#ffffff"
+    },
+
+    "editor.colorDecorators": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSurroundingLinesStyle": "all",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "'Maple Mono Light', '木漏れ日ゴシック', 'Ricty Diminished Discord'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.quickSuggestions": {
+        "strings": "on",
+        "comments": "on",
+        "other": "on"
+    },
+    "editor.renderLineHighlight": "line",
+    "editor.tabSize": 4,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.unicodeHighlight.includeComments": false,
+    "editor.unicodeHighlight.includeStrings": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.wordWrap": "off",
+    "editor.wrappingIndent": "indent",
+    "editor.tokenColorCustomizations": {
+        "[Visual Studio Dark]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "punctuation.quasi.element.begin.js",
+                        "punctuation.quasi.element.end.js",
+                    ],
+                    "settings": {
+                        "foreground": "#7d6d"
+                    }
+                }, {
+                    "scope": "entity.quasi.element.js",
+                    "settings": {
+                        "foreground": "#faf"
+                    }
+                }, {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#9bc",
+                        "fontStyle": "italic"
+                    }
+                }, {
+                    "scope": "string",
+                    "settings": {
+                        "foreground": "#c6d",
+                    }
+                }, {
+                    "scope": "constant.character.escape", 
+                    "settings": {
+                        "foreground": "#f8a"
+                    }
+                }, {
+                    "scope": "constant.numeric",
+                    "settings": {
+                        "foreground": "#8e5",
+                    }
+                }, {
+                    "scope": [
+                        "constant.regexp",
+                        "string.regexp"
+                    ],
+                    "settings": {
+                        "foreground": "#f58"
+                    }
+                }, {
+                    "scope": "entity.name.function", 
+                    "settings": {
+                        "foreground": "#bfd"
+                    }
+                }, {
+                    "scope": [
+                        "entity.name.tag.css",
+                        "entity.other.attribute-name.id.css",
+                        "entity.other.attribute-name.class.css"
+                    ],
+                    "settings": {
+                        "foreground": "#7fd",
+                    }
+                } 
+            ]
+        },
+        "[Jellyfish]": {
+            "textMateRules": []
+        }
+    },
+
+    // "terminal.integrated.automationProfile.linux": {},
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.enableMultiLinePasteWarning": "auto",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell 7": {
+            // "source": "PowerShell",
+            "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\Windows\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+
+    "powershell.promptToUpdatePowerShell": true,
+    "powershell.integratedConsole.showOnStartup": false,
+    "powershell.powerShellAdditionalExePaths": {
+        "pwsh7": "C:/Program Files/PowerShell/7/pwsh.exe"
+    },
+    "powershell.powerShellDefaultVersion": "pwsh7",
+
+    "git.ignoreMissingGitWarning": true,
+
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "typst-lsp.exportPdf": "onSave",
+    "[typst]": {
+        "editor.tabSize": 4
+    },
+
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": "#269",
+    "vim.statusBarColors.insert": "#682",
+    "vim.statusBarColors.replace": "#808",
+    "vim.statusBarColors.visual": "#76e",
+    "vim.statusBarColors.visualline": "#65d",
+    "vim.statusBarColors.visualblock": "#54c",
+    "vim.statusBarColors.easymotionmode": "#5a5",
+    "vim.statusBarColors.surroundinputmode": "#883",
+    "vim.statusBarColors.commandlineinprogress": "#047",
+    "vim.easymotionMarkerForegroundColorOneChar": "#aff",
+    "vim.easymotionMarkerForegroundColorTwoCharFirst": "#afa",
+    "vim.easymotionMarkerForegroundColorTwoCharSecond": "#afaa",
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "0",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\users\\cs23047\\bin\\zenhan.exe",
+    "vim.autoSwitchInputMethod.switchIMCmd": "C:\\users\\cs23047\\bin\\zenhan.exe 0",
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "#8f88",
+    "vim.highlightedyank.duration": 1000,
+    "vim.useSystemClipboard": false,
+    "vim.timeout": 2000,
+    "vim.surround": true,
+    "vim.easymotion": true,
+    "vim.autoindent": true,
+    "vim.foldfix": true,
+    "vim.leader": "<Space>",
+    // "vim.handleKeys": {
+    //     "<C-a>": false,
+    //     "<C-s>": false,
+    //     "<C-z>": false
+    // },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<Leader>", "<Leader>", "m", "d"],
+            "commands": ["markdown.showPreviewToSide"]
+        },
+        {
+            "before": ["<Leader>", "<Leader>", "p"],
+            "commands": ["workbench.action.showCommands"]
+        },
+        {
+            "before": ["<Leader>", "<Leader>", "r"],
+            "commands": ["workbench.action.webview.reloadWebviewAction"]
+        },
+        {
+            "before": ["<Leader>", "w"],
+            "after": ["<Leader>", "<Leader>", "<Leader>", "b", "d", "w"]
+        }, {
+            "before": ["<Leader>", "b"],
+            "after": ["<Leader>", "<Leader>", "<Leader>", "b", "d", "e"]
+        }, 
+        // {
+        //     "before": ["<Leader>", "s"],
+        //     "after": ["<Leader>", "<Leader>", "<Leader>", "b", "d", "j", "k"]
+        // },
+        {
+            "before": ["<Enter>"],
+            "after": ["i", "<Enter>", "<Esc>"]
+        }, 
+        {
+            "before": ["c", "c"],
+            "commands": ["editor.action.joinLines"]
+        }, 
+        {
+            "before": ["+"],
+            "after": ["<C-a>"]
+        }, {
+            "before": ["-"],
+            "after": ["<C-x>"]
+        },
+        {
+            "before": ["K"],
+            "commands": ["editor.action.moveLinesUpAction"]
+        }, {
+            "before": ["J"],
+            "commands": ["editor.action.moveLinesDownAction"]
+        }, {
+            "before": ["H"],
+            "commands": ["workbench.action.previousEditor"]
+        }, {
+            "before": ["L"],
+            "commands": ["workbench.action.nextEditor"]
+        }, 
+        {
+            "before": ["g", "k"],
+            "commands": ["editor.action.insertCursorAbove"]
+        }, {
+            "before": ["g", "j"],
+            "commands": ["editor.action.insertCursorBelow"]
+        }, {
+            "before": ["g", "h"],
+            "after": ["^"]
+        }, {
+            "before": ["g", "l"],
+            "after": ["$"]
+        },
+        {
+            "before": ["g", "K"],
+            "after": ["<C-u>"]
+        }, {
+            "before": ["g", "J"],
+            "after": ["<C-d>"]
+        }, 
+        {
+            "before": ["g", "H"],
+            "commands": ["editor.action.focusPreviousCursor"]
+        }, {
+            "before": ["g", "L"],
+        }, 
+        {
+            "before": ["<Leader>", "k"],
+            "after": ["<C-w>", "k"]
+        }, {
+            "before": ["<Leader>", "j"],
+            "after": ["<C-w>", "j"]
+        }, {
+            "before": ["<Leader>", "h"],
+            "after": ["<C-w>", "h"]
+        }, {
+            "before": ["<Leader>", "l"],
+            "after": ["<C-w>", "l"]
+        }, 
+        {
+            "before": ["g", "t"],
+            "commands": ["editor.emmet.action.matchTag"],
+        },
+        // {
+        //     "before": ["<Leader>", "t"],
+        //     "commands": [""]
+        // }, {
+        //     "before": ["<Leader>", "T"],
+        //     "commands": [""]
+        // },
+        {
+            "before": ["<Leader>", "<"],
+            "commands": ["workbench.action.moveEditorLeftInGroup"]
+        }, {
+            "before": ["<Leader>", ">"],
+            "commands": ["workbench.action.moveEditorRightInGroup"]
+        }, {
+            "before": ["<Leader>", "<Leader>", "<"],
+            "commands": ["workbench.action.moveEditorToLeftGroup"]
+        }, {
+            "before": ["<Leader>", "<Leader>", ">"],
+            "commands": ["workbench.action.moveEditorToRightGroup"]
+        },
+        {
+            "before": ["<Leader>", "v"],
+            "after": ["<C-v>"]
+        }, 
+        {
+            "before": ["<Leader>", "o"],
+            "after": ["o", "<ESC>", "k", "^"]
+        }, {
+            "before": ["<Leader>", "O"],
+            "after": ["O", "<Esc>", "j", "^"]
+        }, 
+        {
+            "before": ["<Leader>", "i"],
+            "after": ["i", "<Space>", "<Esc>"]
+        }, {
+            "before": ["<Leader>", "a"],
+            "after": ["a", "<Space>", "<Esc>"]
+        }, 
+        {
+            "before": ["<Leader>", "y"],
+            "after": ["\"", "+", "y"]
+        }, {
+            "before": ["<Leader>", "p"],
+            "after": ["\"", "+", "p"]
+        }, {
+            "before": ["<Leader>", "P"],
+            "after": ["\"", "+", "P"]
+        }, 
+        {
+            "before": ["<Leader>", "<Leader>", "Y"],
+            "after": ["\"", "+", "y", "a", "e"]
+        },
+        {
+            "before": ["<Leader>", "c"],
+            "commands": ["editor.action.commentLine"]
+        }, 
+        // {
+        //     "before": [">"],
+        //     "commands": ["editor.action.indentLines"]
+        // }, {
+        //     "before": ["<"],
+        //     "commands": ["editor.action.outdentLines"]
+        // } 
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<Leader>", "w"],
+            "after": ["<Leader>", "<Leader>", "<Leader>", "b", "d", "w"]
+        }, {
+            "before": ["<Leader>", "b"],
+            "after": ["<Leader>", "<Leader>", "<Leader>", "b", "d", "e"]
+        },
+        // {
+        //     "before": ["<Leader>", "s"],
+        //     "after": ["<Leader>", "<Leader>", "<Leader>", "b", "d", "j", "k"]
+        // },
+        {
+            "before": ["<Leader>", "y"],
+            "after": ["\"", "+", "y"]
+        }, 
+        {
+            "before": ["K"],
+            "commands": ["editor.action.moveLinesUpAction"]
+        }, {
+            "before": ["J"],
+            "commands": ["editor.action.moveLinesDownAction"]
+        }, 
+        {
+            "before": ["g", "h"],
+            "after": ["^"]
+        }, {
+            "before": ["g", "l"],
+            "after": ["$"]
+        }, 
+        {
+            "before": ["g", "t"],
+            "commands": ["editor.emmet.action.balanceIn"]
+        },
+        {
+            "before": ["g", "T"],
+            "commands": ["editor.emmet.action.balanceOut"]
+        },
+        {
+            "before": ["g", "+"],
+            "after": ["g", "<C-a>"]
+        }, {
+            "before": ["g", "-"],
+            "after": ["g", "<C-x>"]
+        }, {
+
+            "before": ["g", "i"],
+            "commands": ["insert-sequence.execute"]
+        },
+        {
+            "before": ["c", "c"],
+            "commands": ["editor.action.joinLines"]
+        }, 
+        {
+            "before": ["<Leader>", "c"],
+            "commands": ["editor.action.commentLine"]
+        },
+        {
+            "before": ["<Leader>", "<Leader>", "p"],
+            "commands": ["workbench.action.showCommands"]
+        },
+    ],
+    "vim.commandLineModeKeyBindingsNonRecursive": [
+    ],
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+    "background.windowBackgrounds": [
+        "C:/Users/cs23047/Pictures/Camera Roll/manosaba/majo-kanshu.jpg"
+    ],
+}

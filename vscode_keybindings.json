@@ -1,0 +1,52 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "shift+Escape",
+        // "command": "workbench.action.focusActiveEditorGroup",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+Escape",
+        // "command": "workbench.action.terminal.focus",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "!terminalFocus"
+    },
+    // {
+    //     "key": "ctrl+Escape h",
+    //     "command": "workbench.action.terminal.focusPreviousPane",
+    //     "when": "terminalFocus"
+    // },
+    // {
+    //     "key": "ctrl+Escape l",
+    //     "command": "workbench.action.terminal.focusNextPane",
+    //     "when": "terminalFocus"
+    // },
+    {
+        "key": "ctrl+alt+e",
+        "command": "workbench.action.showEmmetCommands"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "liveSass.command.watchMySass"
+    },
+    {
+        "key": "ctrl+shift+alt+l",
+        "command": "liveSass.command.donotWatchMySass"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-extension.vim_cmd+alt+up",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-extension.vim_cmd+alt+down",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-extension.vim_ctrl+s",
+        "when": "editorTextFocus && vim.active && vim.use<C-s> && !inDebugRepl"
+    }
+]

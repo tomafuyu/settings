@@ -1,0 +1,37 @@
+{
+  "keyMappings": "# Insert your preferred key mappings here.\n\nunmap <c-e>\nunmap <c-y>\nmap k scrollPageUp\nmap j scrollPageDown\nmap K scrollUp\nmap J scrollDown\nmap gk scrollFullPageUp\nmap gj scrollFullPageDown\n\nmap h goBack\nmap l goForward\nmap a goBack\n\nunmap gt\nunmap gT\nmap H previousTab\nmap L nextTab\n\nunmap zH\nunmap zL\nmap s scrollLeft\nmap d scrollRight\nmap S scrollToLeft\nmap D scrollToRight\n\nunmap [[\nunmap ]]\nmap [ goPrevious\nmap ] goNext\n\nunmap <<\nunmap >>\nmap < moveTabLeft\nmap > moveTabRight\n\nmap ; passNextKey\nmap z passNextKey\n\nunmap <a-f>\nmap F LinkHints.activateModeToOpenInNewForegroundTab\nmap gb LinkHints.activateModeToOpenInNewTab\nmap gq LinkHints.activateModeWithQueue\n\nmap w moveTabToNewWindow\nmap W LinkHints.activateModeToOpenIncognito\n\nmap R reload hard\n\nunmap <a-p>\nmap gp togglePinTab\n\nunmap <a-m>\nmap M toggleMuteTab\n\nunmap gu\nunmap gU\nmap u goUp\nmap U goToRoot\n\nunmap ge\nunmap gE\nmap e Vomnibar.activateEditUrl\nmap E Vomnibar.activateEditUrlInNewTab\n\nmap x removeTab\nmap gh closeTabsOnLeft count=1\nmap gl closeTabsOnRight count=1\nmap gH closeTabsOnLeft\nmap gL closeTabsOnRight\nmap gx closeOtherTabs",
+  "linkHintCharacters": "jfdkslaghruvmtybneiwopqcxz",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>,次,次へ",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<,前,前へ",
+  "scrollStepSize": 50,
+  "grabBackFocus": true,
+  "searchEngines": "wk: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wiki\nyt: https://www.youtube.com/results?search_query=%s Youtube\ngm: https://www.google.com/maps?q=%s Google Maps\nam: https://www.amazon.co.jp/s?k=%s Amazon\ndd: https://duckduckgo.com/?q=%s DuckDuckGo",
+  "settingsVersion": "2.1.2",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker.internalVimiumHintMarker {\nbackground: -webkit-gradient(\n  linear, left top, left bottom,\n  color-stop(0%,#353a3d),\n  color-stop(100%,#303538)\n);\nborder: 1px solid #383d40;\n}\n\ndiv > .vimiumHintMarker.internalVimiumHintMarker > span {\ncolor: #00bfff;\nfont-weight: 1;\nfont-size: 12px;\ntext-shadow: #ddd -1px 0;\n}\n\ndiv > .vimiumHintMarker.internalVimiumHintMarker > .matchingCharacter {\ncolor: #ff69b4;\n}\n\n#vomnibar {\nborder-top: 1px solid #cff;\nborder-left: 1px solid #cff;\nbox-shadow: \n  -5px 0 5px -3px #cff, \n  0 -5px 5px -3px #cff,\n  0 0 20px 20px #333\n;\nbackground: transparent;\nposition: relative;\n}\n\n#vomnibar::after {\ncontent: 'gm yt am dd';\ncolor: #aaa;\nposition: absolute;\ntop: -16px;\nright: 15px;\npadding-left: 8px;\npadding-right: 8px;\ndisplay: inline-block;\nbackground: #333;\n--b: 2px solid #cff;\nborder-top: var(--b);\nborder-left: var(--b);\nborder-right: var(--b);\nz-index: 100;\n}\n\n.vomnibarSearchArea {\nbackground: transparent;\n}\n\n#vomnibar input {\n--b: 2px solid #fcf;\nborder-right:  var(--b);\nborder-bottom: var(--b);\nbackground: transparent;\n}\n\n#vomnibar input {\ncaret-color: #aaa;\n}\n\n#vomnibar li span.vomnibarTitle {\ncolor: #dff;\n}\n\n#vomnibar li span.vomnibarUrl {\ncolor: #46ee;\n}\n\n#vomnibar li.vomnibarSelected {\nbackground: inherit;\n}\n\n#vomnibar li.vomnibarSelected::before {\ncontent: '>';\ncolor: #eee;\nfont-size: 150%;\ntext-shadow: 0 0 5px #eee;\nposition: absolute;\ntop: 30%;\nleft: 5px;\n}\n \n#vomnibar li.vomnibarSelected::after {\ncontent: '<';\ncolor: #eee;\nfont-size: 150%;\ntext-shadow: 0 0 5px #eee;\nposition: absolute;\ntop: 30%;\nright: 5px;\n}\n\nbody > div.vimiumHUD,\nbody > div.vimiumHUD > div.vimiumHUDSearchArea {\nbackground-color: #fff2;\n}\n\n#hud {\ncolor: #89a;\n}\n\ndiv.vimiumHUD .hud-find.vimiumHUDSearchAreaInner {\nbackground-color: #123;\n}\n\ndiv#hud > span#hud-find-input {\ncolor: #def;\n}",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://thetypingcat.com/*"
+    },
+    {
+      "passKeys": "h,l,r,R",
+      "pattern": "https?://gakujo.shizuoka.ac.jp/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "file:///*/fps/index.html"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://lyricstraining.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://unityroom.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://49344.play.unityroom.com/*"
+    }
+  ]
+}
